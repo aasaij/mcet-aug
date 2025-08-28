@@ -1,0 +1,101 @@
+String str = "Testing@123"
+String str2 = new String("Testing@15155");
+char[] str1 = {'T', 'e','s','t'};
+String str3 = new String(str1);
+
+byte arr[] = {65, 66, 67, 68, 69, 70};
+String str4 = new String(arr);
+
+String Methods
+toLowerCase()
+	System.out.println(str4.toLowerCase());
+toUpperCase()
+length()
+substring()
+	substring(int startIndex, int endIndex)
+replace()
+	replace(char oldChar, char newChar)
+	"welcome".replace('e','a');
+	"walcoma"
+	"this is testing".replace("is", "was");
+	"thwas was testing"
+indexOf()
+	indexOf(char findChar);
+	indexOf(char searchChar, int startIndex);
+	indexOf(String str);
+	indexOf(String searchStr, int startIndex);
+lastIndexOf()
+	lastIndexOf(char findChar);
+	lastIndexOf(char searchChar, int startIndex);
+	lastIndexOf(String str);
+	lastIndexOf(String searchStr, int startIndex);
+
+repeat()
+	repeat(int n);
+startsWith()
+	startsWith(String prefix);
+	startsWith(String prefix, int startIndex);
+endsWith()
+	endsWith(String suffix);
+	endsWith(String suffix, int startIndex);
+split()
+	split(String delimiter)
+	split(String delimiter, int limit);
+equals()
+	equals(String str);
+equalsIgnoreCase()
+	equalsIgnoreCase(String str);
+compareTo()
+	compareTo(String anotherString)
+compareToIgnoreCase()
+	compareToIgnoreCase(String another);
+contains()
+	contains(String str);
+charAt()
+	charAt(int index);
+isEmpty()
+
+concat()
+	concat(String str)
+join()
+	join(String delimiter, String[])
+trim()
+format()
+	format(String formatSpecifier, <arguments>)
+
+
+StringBuffer  -> Mutable
+
+Methods
+		append()
+		deleteCharAt(int index)
+		delete(int startIndex, int endIndex);
+		reverse();
+StringBuilder
+
+
+Class Declaration Syntax
+
+	public class <classname>{
+		//<data_members> -- fields, properties
+		//<methods> -- behaviour
+	}
+
+	class MyDate{
+		//fields
+		//instance variables
+		//states
+		//data members
+		//properties
+		//Attributes
+		int day;
+		int mon
+		int year;
+	}
+
+
+
+
+
+
+
