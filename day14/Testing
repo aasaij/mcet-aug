@@ -1,0 +1,33 @@
+    private static void print(3){
+        if (3 == 0)
+            return;
+        else{
+                System.out.print(3 + " ");
+                print(3-1);
+            }
+    }
+        private static void print(2){
+        if (2 == 0)
+            return;
+        else{
+                System.out.print(2 + " ");
+                print(2-1);
+            }
+    }
+         private static void print(1){
+        if (1 == 0)
+            return;
+        else{
+                System.out.print(1 + " ");
+                print(1-1);
+            }
+    }
+            private static void print(0){
+        if (0 == 0)
+            return;
+        else{
+                System.out.print(0 + " ");
+                print(2-1);
+            }
+    }
+
